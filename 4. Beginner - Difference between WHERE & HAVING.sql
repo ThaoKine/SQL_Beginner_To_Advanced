@@ -42,5 +42,5 @@ where occupation like '%Manager%' -- this works because WHERE clause filter INDI
 group by occupation
 having avg(salary) > 70000;
 
--- MEANING OF THE QUOTE ABOVE:
--- find the average salary of Titles include "manager" that is above $70,000
+-- What BUSINESS QUESTION do these SQL queries actually answer?:
+-- Which types of managers earn over $70,000 on average?
